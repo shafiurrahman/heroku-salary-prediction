@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>FLASK APP</title>
+    </head>
+
+    <body>
+
+        <h1>welcome to my flask page </h1>
+        <p1>flask tobe used for smaller apps for users b/w 100-10000</p1>
+
+        <form action='predict' method='post'>
+            <input type ='number' name= 'experience' placeholder='experience' required='required'/>
+            <input type ='number' name= 'test_score' placeholder='test_score' required='required'/>
+            <input type ='number' name= 'interview_score' placeholder='interview_score' required='required'/>
+
+            <button type ='submit'> predict </button>
+        </form>
+        {{prediction_text}}
+    </body>
+</html>
